@@ -1,0 +1,65 @@
+body{
+    background: #0a9dff;
+    color: rgb(197, 0, 0);
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+  }
+  .clearfix{
+    clear: both;
+  }
+  #box{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: rgb(52, 55, 251);
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
+  #message{
+    background: rgb(0, 17, 255);
+    color: #fff;
+  }
+  #gameBoard li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background: rgb(3, 1, 121);
+    color: #ccc;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #gameBoard li:hover, #reset:hover{
+    cursor: pointer;
+    background: rgb(4, 0, 61);
+  }
+  #reset{
+    border: 0;
+    background: rgb(3, 1, 121);
+    color: #fff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .o{
+    color: green !important;
+  }
+  .x{
+    color: red !important;
+  }
+  footer { 
+    display: block;
+    text-align: center;
+    color: black;
+}
+img {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+  }

@@ -1,0 +1,76 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: monospace; /* initial fonts */
+}
+#top-bar { 
+    width: 100%; 
+    background: #F1F1F1; /* light gray */ 
+    border-bottom: 1px solid #D4D4D4; /* dark gray "underline" */ 
+    height: 25px;
+}
+img {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+  }
+h1 { 
+    float: left; 
+    margin: 21px 0 0 25px;
+}
+h3 {
+    text-align: center;
+}
+body {
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; ;
+    color: rgb(255, 255, 255);
+}
+footer { 
+    display: block;
+    text-align: center;
+    color: black;
+}
+table, th {
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+  }
+  td {
+      text-align: center;
+      color:rebeccapurple;
+  }
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+.rainbow {
+  
+    /* Font options */
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-shadow: 2px 2px 4px #000000;
+   font-size:20px;
+   -ms-animation: rainbow 5s infinite;
+   animation: rainbow 5s infinite; 
+ }
+ @keyframes rainbow{
+     0%{color: orange;}	
+   10%{color: purple;}	
+     20%{color: red;}
+   30%{color: CadetBlue;}
+     40%{color: yellow;}
+   50%{color: coral;}
+     60%{color: green;}
+   70%{color: cyan;}
+   80%{color: DeepPink;}
+   90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
+ p {
+   color: black;
+   text-align: center;
+ }
